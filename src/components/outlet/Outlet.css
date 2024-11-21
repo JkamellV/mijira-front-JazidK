@@ -1,8 +1,10 @@
 .mainFullLayout {
   grid-area: main;
+  overflow-x: hidden;
 }
 
 .mainChildren {
   margin: auto;
-  max-width: 1346px ;
+  max-width: 1346px;
+  height: 100%;
 }
