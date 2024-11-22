@@ -10,30 +10,46 @@ const Board = () => {
         <div className="icons">xd</div>
       </div>
       <div className="contet-body">
-        <div className="board">
-          <div className="head-board">
-            <h2 className="titles"> Por Hacer</h2>
-            <button className="pencil">
-              <IconPencil />
-            </button>
+        <section className="background-board">
+          <div className="board">
+            <div className="head-board">
+              <h2 className="titles"> Por Hacer</h2>
+              <button className="pencil">
+                <IconPencil />
+              </button>
+            </div>
+            <label className="titles-labels">Tarea#1</label>
+            <input type="texto" />
           </div>
-        </div>
-        <div className="board">
-          <div className="head-board">
-            <h2 className="titles"> En curso </h2>
-            <button className="pencil">
-              <IconPencil />
-            </button>
+        </section>
+        <section className="background-board">
+          <div className="board">
+            <div className="head-board">
+              <h2 className="titles"> En curso </h2>
+              <button className="pencil">
+                <IconPencil />
+              </button>
+            </div>
+            <label className="titles-labels">
+              Tarea#1
+              <div className="number-homework"></div>
+            </label>
+            <input type="texto" />
           </div>
-        </div>
-        <div className="board">
-          <div className="head-board">
-            <h2 className="titles"> Listo</h2>
-            <button className="pencil">
-              <IconPencil />
-            </button>
+        </section>
+        <section className="background-board">
+          <div className="board">
+            <div className="head-board">
+              <h2 className="titles"> Listo</h2>
+              <button className="pencil">
+                <IconPencil />
+              </button>
+            </div>
+            <label className="titles-labels">Tarea#1</label>
+            <input type="texto" />
           </div>
-        </div>
+        </section>
+
         <button className="plus">
           <div className="Chil-plus">
             <IconPlus />
