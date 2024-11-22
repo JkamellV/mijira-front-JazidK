@@ -32,9 +32,8 @@ const Board = () => {
             </div>
             <label className="titles-labels">
               Tarea#1
-              <div className="number-homework"></div>
-            </label>
-            <input type="texto" />
+              <div className="number-homework"> 17342</div>
+            </label>        
           </div>
         </section>
         <section className="background-board">
