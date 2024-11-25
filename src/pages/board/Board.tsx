@@ -18,10 +18,14 @@ const Board = () => {
                 <IconPencil />
               </button>
             </div>
-            <label className="titles-labels">Tarea#1</label>
-            <input type="texto" />
+            <label className="titles-labels">
+              <p>Tarea#1</p>
+              <p className="number-homework"> 17342</p>
+            </label>
+            <input className="text-box" type="texto" />
           </div>
         </section>
+        {/* --------------------------------------------------------------------*/}
         <section className="background-board">
           <div className="board">
             <div className="head-board">
@@ -31,11 +35,13 @@ const Board = () => {
               </button>
             </div>
             <label className="titles-labels">
-              Tarea#1
-              <div className="number-homework"> 17342</div>
-            </label>        
+              <p>Tarea#1</p>
+              <p className="number-homework"> 17342</p>
+            </label>
+            <input className="text-box" type="texto" />
           </div>
         </section>
+        {/* --------------------------------------------------------------------- */}
         <section className="background-board">
           <div className="board">
             <div className="head-board">
@@ -44,11 +50,16 @@ const Board = () => {
                 <IconPencil />
               </button>
             </div>
-            <label className="titles-labels">Tarea#1</label>
-            <input type="texto" />
+            {/* <div className="border-container"> */}
+            <label className="titles-labels">
+              <p>Tarea#1</p>
+              <div className="number-homework"> 17342</div>
+            </label>
+            <input className="text-box" type="texto" />
+            {/* </div> */}
           </div>
         </section>
-
+        {/* ---------------------------------------------------------------------- */}
         <button className="plus">
           <div className="Chil-plus">
             <IconPlus />
