@@ -113,7 +113,7 @@ const Board = () => {
             </div>
           </div>
           <div className="background-board">
-            <div className="board"> 
+            <div className="board">
               <div className="head-board">
                 <h2 className="titles"> En curso </h2>
                 <button className="pencil">
