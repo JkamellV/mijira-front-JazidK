@@ -1,0 +1,38 @@
+.taskCardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0 0;
+  border: 2px solid white;
+  background-color: #ffffff33;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.taskCardContainer .codeContainer {
+  width: 100%;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 10px;
+}
+
+.textTaskContainer {
+  background-color: white;
+  width: 100%;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.textTaskContainer p {
+  color: #000000;
+  font-size: 14px;
+}

@@ -1,5 +1,4 @@
-
-const IconMenu = ({color = "white"}) => {
+const IconMenu = ({ color = "white" }) => {
   return (
     <svg
       width="24"
